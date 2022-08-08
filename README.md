@@ -1,6 +1,7 @@
 
-##TypeScriptとは？　
-皆さんはTypeScriptをご存知ですか?
+TypeScriptとは？
+
+<br/>皆さんはTypeScriptをご存知ですか?
 
 TypeScriptはMSで開発されたJavaScriptをより安全で予測出来るコード具現にスポットを当てた
 
