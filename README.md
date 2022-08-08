@@ -25,6 +25,3 @@ TypeScriptの最も重要な特徴はJavaScriptにType Systemを適用させた�
 
 TypeScript = JavaScript + Type System
 
- 
-
-さあ！これから一緒に相違点を見てみましょう！
