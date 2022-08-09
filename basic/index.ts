@@ -35,15 +35,20 @@ let Gen:(string | number[]) = 'MZ' // OR ['1980', ..... ,'2004']
 
 
 // Type Alias
-type HumanInfo = {
+interface HumanInfo {
     name:string,
     age?:number,
     gender?:string
 }
 
+interface HumanInfo{
+    hasBoyFriend?:boolean
+}
+
 let myLover:HumanInfo ={
     name: 'こなつ',
-    age: 21
+    age: 21,
+    hasBoyFriend:false,
 }
 
 // If, we have SO Many Object attribute
