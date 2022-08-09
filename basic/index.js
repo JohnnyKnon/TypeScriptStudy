@@ -18,6 +18,26 @@ let myInfo = {
 // String or Number
 let Me = 'sungmin'; // OR 18
 let Gen = 'MZ'; // OR ['1980', ..... ,'2004']
+// Point!! Union の場合はStringかNumberの一つに確定されます
+// でも、また数字を入れたらNumberに変わります。可変的
+// array union
+let users = ['1', 2, 3];
+// object union
+let userInfo = {
+    usrID: '134562313'
+};
+// Any Type 全てのデータタイプを許す
+let korea; // タイプシールド解除。つまり、一般JS変数なのでTSを使う意味がなくなる
+korea = 'from korea';
+korea = true;
+//Anyより安全に使えるタイプUnknown!
+let school;
+school = 'High school';
+school = {
+    score: 13
+};
+// TypeScriptは簡単な計算式にもデータタイプを厳しく判断する
+// any, int, bigint外には計算式を使えぬ(union typeもできない)
 let myLover = {
     name: 'こなつ',
     age: 21
