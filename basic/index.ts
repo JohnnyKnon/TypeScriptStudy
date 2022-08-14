@@ -87,6 +87,7 @@ function toggleRoomLight(onOff:boolean):string{
     if(onOff === true){
         return 'Light On!!!!!';
     }
+    return 'Light OFF!!!!!';
 }
 
 // Class

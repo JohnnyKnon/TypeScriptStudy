@@ -40,7 +40,8 @@ school = {
 // any, int, bigint外には計算式を使えぬ(union typeもできない)
 let myLover = {
     name: 'こなつ',
-    age: 21
+    age: 21,
+    hasBoyFriend: false,
 };
 // Function
 // function(para:datatype):resultDataType
@@ -48,6 +49,7 @@ function toggleRoomLight(onOff) {
     if (onOff === true) {
         return 'Light On!!!!!';
     }
+    return 'Light OFF!!!!!';
 }
 // Class
 class User {
